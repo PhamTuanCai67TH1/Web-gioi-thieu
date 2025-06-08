@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Travel Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">TravelNow</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Trang chủ</a></li>
+        <li><a href="#destinations">Điểm đến</a></li>
+        <li><a href="#slider">Ảnh đẹp</a></li>
+        <li><a href="#subscribe">Đăng ký</a></li>
+      </ul>
+      <button id="darkModeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Khám phá thế giới cùng TravelNow</h1>
+      <p>Những chuyến đi tuyệt vời đang chờ bạn</p>
+      <a href="#destinations" class="btn-primary">Khám phá ngay</a>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <h2>Điểm đến nổi bật</h2>
+    <div class="destinations-container">
+      <!-- Mình sẽ hướng dẫn cách thêm các thẻ điểm đến ở bước sau -->
+    </div>
+  </section>
+
+  <section id="slider">
+    <h2>Ảnh du lịch đẹp</h2>
+    <div class="slider">
+      <button class="slider-btn prev">&#10094;</button>
+      <div class="slides">
+        <!-- Ảnh slide sẽ thêm ở bước tiếp theo -->
+      </div>
+      <button class="slider-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="subscribe">
+    <h2>Đăng ký nhận khuyến mãi</h2>
+    <form id="subscribeForm">
+      <input type="email" placeholder="Email của bạn" required />
+      <button type="submit">Đăng ký</button>
+    </form>
+    <p id="subscribeStatus"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 TravelNow. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
